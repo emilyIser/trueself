@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/workspaces/trueself/index.html"
+            "file": "/Users/emily/Documents/code/trueself/index.html"
         }
     ]
 }

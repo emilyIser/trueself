@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    padding: 20px;
+}
+
+.content-wrapper {
+    max-width: 690px; /* limit paragraph width here */
+    width: 100%;
+    text-align: center;
+}
+
+.content-wrapper-wide {
+    max-width: 900px; /* limit paragraph width here */
+    width: 100%;
+    text-align: center;
+}
+
+h1 img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.typeform {
+    width: 100%;
+}
