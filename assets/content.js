@@ -42,7 +42,7 @@ const websiteContent = {
             {
                 icon: "🤝",
                 title: "Companionship",
-                description: "Be your shopping companion, offering encouragement and support as you explore your style journey."
+                description: "Be your shopping companion, offering encouragement and support as you explore your style."
             },
             {
                 icon: "✨",
