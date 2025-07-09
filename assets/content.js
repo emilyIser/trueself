@@ -54,8 +54,8 @@ const websiteContent = {
 
     // CTA Section
     cta: {
-        title: "Ready to Start Your Journey?",
-        text: "Fill out the form below to share your style preferences, budget, and a bit about yourself. Let's begin this empowering journey together!"
+        title: "Ready to Build Your Confidence Shopping?",
+        text: "Fill out the form below to share your style preferences, budget, and a bit about yourself. Let's have some fun shopping together!"
     },
 
     // Footer
