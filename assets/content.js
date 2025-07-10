@@ -3,7 +3,7 @@ const websiteContent = {
     // Hero Section
     hero: {
         subtitle: "Personalized, gender-affirming style support and in-person shopping guidance to help you express your authentic self",
-        ctaButton: "Start Your Journey"
+        ctaButton: "Let's Shop Together"
     },
 
     // About Section
