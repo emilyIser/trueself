@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://trueself.style/sitemap.xml 
