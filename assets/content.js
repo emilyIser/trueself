@@ -52,6 +52,33 @@ const websiteContent = {
         ]
     },
 
+    // How It Works Section
+    howItWorks: {
+        title: "How It Works",
+        steps: [
+            {
+                number: "1",
+                title: "Let's Get to Know Each Other",
+                description: "We'll start with a video chat, where we can get to know each other and discuss your style interests, what you're looking for, and any questions you may have. This helps me understand your preferences and comfort level."
+            },
+            {
+                number: "2", 
+                title: "Plan Your Shopping Adventure",
+                description: "Once we've connected, we'll schedule a time that works for both of us to go shopping together. I'll make sure we have plenty of time to explore and try things on without feeling rushed."
+            },
+            {
+                number: "3",
+                title: "I'll Do the Research", 
+                description: "Based on our conversation, I'll research stores and locations that match your style preferences and comfort level. I'll send you a list of places to review, and we can discuss which ones feel right for you."
+            },
+            {
+                number: "4",
+                title: "Time to Shop!",
+                description: "We'll meet up and have a fun, supportive shopping experience together. I'll be there to help you find pieces that make you feel confident and authentic, offering encouragement every step of the way."
+            }
+        ]
+    },
+
     // CTA Section
     cta: {
         title: "Ready to Build Your Confidence Shopping?",
@@ -91,6 +118,18 @@ function populateContent() {
             serviceCards[index].querySelector('.service-icon').textContent = card.icon;
             serviceCards[index].querySelector('h3').textContent = card.title;
             serviceCards[index].querySelector('p').textContent = card.description;
+        }
+    });
+
+    // How It Works section
+    document.querySelector('.how-it-works-section .section-header h2').textContent = websiteContent.howItWorks.title;
+    
+    const steps = document.querySelectorAll('.step');
+    websiteContent.howItWorks.steps.forEach((step, index) => {
+        if (steps[index]) {
+            steps[index].querySelector('.step-number').textContent = step.number;
+            steps[index].querySelector('.step-content h3').textContent = step.title;
+            steps[index].querySelector('.step-content p').textContent = step.description;
         }
     });
 
