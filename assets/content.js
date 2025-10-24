@@ -88,7 +88,8 @@ const websiteContent = {
     // Footer
     footer: {
         copyright: "© 2025 True Self. All rights reserved.",
-        contact: "Contact: emily@trueself.style"
+        contact: "Contact: emily@trueself.style",
+        instagram: "Follow me on Instagram: @mytrueself.style"
     }
 };
 
@@ -140,6 +141,7 @@ function populateContent() {
     // Footer
     document.querySelectorAll('.footer-content p')[0].textContent = websiteContent.footer.copyright;
     document.querySelectorAll('.footer-content p')[1].innerHTML = websiteContent.footer.contact.replace('emily@trueself.style', '<a href="mailto:emily@trueself.style">emily@trueself.style</a>');
+    document.querySelectorAll('.footer-content p')[2].innerHTML = websiteContent.footer.instagram.replace('@mytrueself.style', '<a href="https://www.instagram.com/mytrueself.style/" target="_blank" rel="noopener noreferrer">@mytrueself.style</a>');
 }
 
 // Run when DOM is loaded
